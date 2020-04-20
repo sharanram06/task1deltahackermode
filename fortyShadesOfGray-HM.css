@@ -92,7 +92,7 @@ button:hover{
     background-color:#fa625f ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    /* min-width: 203.5px; */
+
  
   }
   .dropdown:hover .dropbtn {
@@ -461,6 +461,10 @@ h1{
         margin-top: 11px;
       
     }
+    #note{
+        font-size: 65px;
+        margin-top: 80px;
+    }
     .message{
         margin: 140px auto;
     }
@@ -473,25 +477,32 @@ h1{
 }
 
 @media screen and (max-width:500px)
-{   
+{     
+     #desc{
+    font-size: 10.5px;
+}
     
     #del{
-        font-size: 10px;
+        font-size: 9px;
     }
     .dropdown-content{
       font-size:   10px;
       font-weight: 800;
     }
+    #note{
+        font-size: 55px;
+        margin-top: 60px;
+    }
     .easy{border-width: 3px;
         border-radius: 15px;
-        width: 340px;
+        width: 310px;
         padding: 5px;
-        height: 315px;
+        height: 290px;
     }
     
     .num1{  border-radius: 10px;
         margin :1.5px;
-        width:19.1%;
+        width:19%;
         height:23.90%;
         font-size:50px ;
         border-radius: 10px;
@@ -499,34 +510,34 @@ h1{
     }
     .normal{border-width: 3px;
         border-radius: 15px;
-        width: 360px;
+        width: 320px;
         padding: 3px;
-        height: 315px;
+        height: 290px;
     }
     .num2{
         border-radius: 10px;
         margin :2px;
-        width: 15.50%;
+        width: 15.40%;
         height:18.85%;
-        font-size:45px ;
+        font-size:37px ;
     }
    
     .hard{border-width: 3px;
         border-radius: 15px;
-        width: 380px;
+        width: 330px;
         padding: 3px;
-        height: 315px;
+        height: 290px;
     }
     
     
     .num3{border-radius: 10px;
         margin :1px;
-        width: 11.95% ;
-        height:19.4%;
-        font-size:38px ;
+        width: 11.85% ;
+        height:19.2%;
+        font-size:32px ;
     }
     .count{border-radius:15px ;
-        padding:109px 170px;
+        padding:95.5px 155px;
         border-radius: 10px;
         font-size: 80px;
        
