@@ -1,0 +1,552 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color:#047bca;
+    margin: 0;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+}
+h1{
+   
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    margin:0;
+
+}
+#crec{
+    text-align: center;
+    font-size: 25px;
+    color: darkred;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#bar{
+    height:50px;
+    background-color:#fbf579 ;
+    text-align: center;
+    margin: 5 auto;
+   
+}
+#note{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+}
+.restart{
+    border-radius: 7px;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color:#fa625f ;
+    height: 100%;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+    border:2px solid #005995 ;
+    cursor: pointer;
+   
+}
+#newgame
+{
+    visibility: hidden;
+    margin-left: 50px;
+    height: 100%;
+}
+#desc{
+    display:none;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.dropbtn {
+    background-color:#fa625f ;
+    color: black;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50px;
+    padding: 4px;
+
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+    visibility: hidden;
+    
+    
+  }
+  
+  .dropdown-content {
+      display: none;
+    position: absolute;
+    background-color:#fa625f ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    /* min-width: 203.5px; */
+ 
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #912512 ;
+    border: none;
+    outline:none;
+  } 
+ 
+ .dropdown:hover .dropdown-content {
+     
+    display: block;
+  
+  }
+#del{
+    font-size: 35px;
+    background-color: cyan;
+    padding: 0 54px;
+    outline:none;
+}
+#del:hover{
+    background-color: darkcyan;
+    border: none;
+    outline:none;
+}  
+.score{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+ }
+#hiddes{
+    display: none;
+    text-align: center;
+}
+
+.easy{
+
+    width: 620px;
+    padding: 15px;
+    height: 496px;
+    border: 10px solid #fbf579;
+    border-radius: 20px;
+    margin:  auto;
+    text-align: center;
+    display:none;
+   
+ } 
+ .num1{
+    color: black;
+    background-color: #fa625f;
+    margin :2px;
+    width:120px;
+    height:120px;
+    text-align: center;
+    font-size:100px ;
+    border-radius: 10px;
+    float: left;
+    display:none;
+    cursor: pointer;
+   
+}
+  .normal{
+    width: 685px;
+    padding: 15px;
+    height: 496px;
+    border: 10px solid #fbf579;
+    border-radius: 20px;
+    margin:  auto;
+    text-align: center;
+     display:none;
+}
+.num2{
+    color: black;
+    background-color: #fa625f;
+    margin :2px;
+    width: 110px;
+    height:95px;
+    text-align: center;
+    font-size:80px ;
+    border-radius: 8px;
+    float: left;
+    cursor: pointer;
+    display:none;
+}
+.hard{
+    width: 820px;
+    padding: 15px;
+    height: 496px;
+    border: 10px solid #fbf579;
+    border-radius: 20px;
+    margin:  auto;
+    text-align: center;
+    display:none;
+}
+
+
+.num3{
+    color: black;
+    background-color: #fa625f;
+    margin :2px;
+    width: 98.5px ;
+    height:96px;
+    text-align: center;
+    font-size:75px ;
+    border-radius: 6px;
+    float: left;
+    display:none;
+    cursor: pointer;
+   
+}
+.message{
+    display: none;
+      margin: 200px auto;
+}
+.message button{
+   
+    font-size: 60px;
+    color: black;
+   
+}
+.message div{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+.start{
+      margin: 200px auto;
+      font-size: 60px;
+      color: black;
+      display: none;
+      border-radius: 7px;
+      
+}
+.count{
+    padding:187px 279px;
+    background-color: #fa625f;
+    border-radius: 10px;
+    color: black;
+    font-size: 100px;
+    display:none;
+}
+
+
+.mode{
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    
+}
+.modeprop{
+    background-color:#912512 ;
+}
+
+
+/* media query */
+
+
+@media screen and (max-width:1260px){
+    #bar{
+        height:40px
+    }
+ #newgame{
+     font-size: 20px;
+     font-weight: 800;
+     height:100%;
+     font-family:'Fredoka One', cursive;
+ }
+ .dropbtn{
+    font-size: 20px;
+    font-weight: 800;
+    height:40px;
+    font-family:'Fredoka One', cursive;
+ }
+ .dropdown-content{
+    font-size: 25px;
+ }
+ #del{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0 33px;
+ }
+ #desc{
+     font-size: 25px;
+     letter-spacing: 1px;
+  
+      }
+
+.mode{
+   
+    font-family:'Fredoka One', cursive;
+    font-size: 22px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: none;
+    outline: none;
+
+}}
+
+
+
+
+
+@media screen and (max-width:900px){
+h1{
+    font-size: 50px;
+}
+.easy{
+
+    width: 530px;
+    padding: 15px;
+    height: 450px;
+   
+ } 
+ .num1{
+
+    margin :2px;
+    width:19.20%;
+    height:23.85%;
+    font-size:75px ;
+
+}
+  .normal{
+    width: 550px;
+    padding: 15px;
+    height: 450px;
+}
+.num2{
+
+    margin :2px;
+    width: 15.80%;
+    height:19%;
+    font-size:60px ;
+}
+.hard{
+    width: 600px;
+    padding: 15px;
+    height: 450px;
+}
+
+
+.num3{
+    margin :2px;
+    width: 11.80% ;
+    height:19%;
+    font-size:55px ;
+}
+.count{
+    padding:165px 260px;
+    border-radius: 10px;
+    font-size: 100px;
+   
+}
+#desc{
+    font-size: 20px;
+    height: 100%;
+    letter-spacing:0px;
+    margin-bottom: 10px;
+}
+#newgame{
+    font-size: 15px;
+    font-weight: 800;
+    height:100%;
+}
+.dropbtn{
+   font-size: 15px;
+   font-weight: 800;
+   height:40px;
+}
+.dropdown-content{
+   font-size: 20px;
+}
+#del{
+    font-size: 15px;
+    padding: 2px 26px;
+
+}
+.start{
+    margin: 160px auto;
+    font-size: 70px;
+}
+.message{
+    margin: 190px auto;
+}
+}
+
+
+
+@media screen and (max-width:700px)
+ {  h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .easy{margin-top: 40px;
+        width: 400px;
+        padding: 10px;
+        height: 370px;
+        border-radius: 20px;
+    }
+    
+    .num1{border-radius: 11px;
+        margin :2px;
+        width:19%;
+        height:23.75%;
+        font-size:60px ;
+        border-radius: 10px;
+       
+    }
+    .normal{margin-top: 40px;
+        width: 430px;
+        padding: 7px;
+        height: 370px;
+    }
+    .num2{
+    border-radius: 11px;
+        margin :2px;
+        width: 15.60%;
+        height:19%;
+        font-size:60px ;
+    }
+   
+    .hard{margin-top: 40px;
+        width: 455px;
+        padding: 5px;
+        height: 370px;
+    }
+    
+    
+    .num3{border-radius: 11px;
+        margin :1px;
+        width: 12% ;
+        height:19.4%;
+        font-size:45px ;
+    }
+    .count{
+        padding:137px 200px;
+        border-radius: 10px;
+        font-size: 80px;
+       
+    }
+    .start{
+        margin: 135px auto;
+        font-size: 50px;
+     
+    }
+    .mode{
+   font-size: 15px;
+    }
+    #newgame{
+        font-size: 13px;
+        height:100%;
+        margin-left: 0px;
+    }
+    .dropbtn{
+       font-size: 13px;
+   
+    }
+    .dropdown-content{
+        font-size: 15px;
+     }
+    .dropdown{
+        margin-right: 0px;
+    }
+    #desc{
+        font-size: 13px;
+        font-weight: 800;
+        margin-top: 11px;
+      
+    }
+    .message{
+        margin: 140px auto;
+    }
+ 
+     .message button{
+       font-size: 50px; }
+    .message div{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:500px)
+{   
+    
+    #del{
+        font-size: 10px;
+    }
+    .dropdown-content{
+      font-size:   10px;
+      font-weight: 800;
+    }
+    .easy{border-width: 3px;
+        border-radius: 15px;
+        width: 340px;
+        padding: 5px;
+        height: 315px;
+    }
+    
+    .num1{  border-radius: 10px;
+        margin :1.5px;
+        width:19.1%;
+        height:23.90%;
+        font-size:50px ;
+        border-radius: 10px;
+       
+    }
+    .normal{border-width: 3px;
+        border-radius: 15px;
+        width: 360px;
+        padding: 3px;
+        height: 315px;
+    }
+    .num2{
+        border-radius: 10px;
+        margin :2px;
+        width: 15.50%;
+        height:18.85%;
+        font-size:45px ;
+    }
+   
+    .hard{border-width: 3px;
+        border-radius: 15px;
+        width: 380px;
+        padding: 3px;
+        height: 315px;
+    }
+    
+    
+    .num3{border-radius: 10px;
+        margin :1px;
+        width: 11.95% ;
+        height:19.4%;
+        font-size:38px ;
+    }
+    .count{border-radius:15px ;
+        padding:109px 170px;
+        border-radius: 10px;
+        font-size: 80px;
+       
+    }
+    #newgame{
+        font-size: 10px;
+        font-weight: 800;
+        height:100%;
+    }
+    .dropbtn{
+       font-size: 10px;
+       font-weight: 800;
+       height:40px;
+    }
+    #message{
+        display: none;
+        margin: 135px auto;
+    }
+    #message button{
+       font-size: 50px;
+     }
+
+}
