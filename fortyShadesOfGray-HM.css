@@ -484,6 +484,7 @@ h1{
     
     #del{
         font-size: 9px;
+        padding:2px 22px;
     }
     .dropdown-content{
       font-size:   10px;
